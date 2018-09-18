@@ -1,0 +1,23 @@
+body{
+margin: 0;
+}
+
+.block1 {
+	width: 200px;
+	height: 200px;
+	background-color: red ;
+	margin:  auto;
+	right: 1000px;
+	bottom: 1000px;
+
+}
+
+.block2 {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	margin: 50px;
+	right: -200px
+	
+
+}

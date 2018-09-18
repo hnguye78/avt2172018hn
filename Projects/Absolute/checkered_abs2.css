@@ -1,0 +1,199 @@
+
+.d5body {
+	height: 4000px;
+	background: blue;
+}
+
+.container {
+	background: green;
+	top: 200px;
+    left: 30px;
+	position: absolute;
+}
+
+.tall1 {
+	width: 80px;
+    height: 300px;
+    background: red;
+    top: 20px;
+    left: 30px;
+	position: absolute;
+}
+
+
+.top1 {
+	width: 310px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 20px;
+    right: 890px;
+
+}
+
+
+
+.square1 {
+	width: 150px;
+    height: 190px;
+    background-color: red;
+    position: absolute;
+    top: 130px;
+    left: 118px;
+
+}
+
+.square2 {
+	width: 150px;
+    height: 190px;
+    background-color: red;
+    position: absolute;
+    top: 130px;
+    right: 890px;
+
+}
+
+
+.tall2 {
+	width: 80px;
+    height: 300px;
+    background: red;
+    top: 20px;
+    right: 800px;
+	position: absolute;
+
+}
+
+
+.tall3 {
+	width: 80px;
+    height: 300px;
+    background: red;
+    bottom: -20px;
+    right: 800px;
+	position: absolute;
+}
+
+.tall4 {
+	width: 80px;
+    height: 300px;
+    background: red;
+    bottom: -20px;
+    left: 30px;
+	position: absolute;
+}
+
+.square3 {
+	width: 150px;
+    height: 190px;
+    background-color: red;
+    position: absolute;
+    bottom: -20px;
+    left: 118px;
+
+}
+
+.square4 {
+	width: 150px;
+    height: 190px;
+    background-color: red;
+    position: absolute;
+    bottom: -20px;
+    right: 890px;
+
+}
+
+
+
+.top2 {
+	width: 310px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    bottom: 180px;
+    right: 890px;
+
+}
+
+.whitetall1 {
+	width: 10px;
+	height: 611px;
+	background-color: white;
+    position: absolute;
+    top: 20px;
+    right: 880px;
+
+}
+
+
+.whitetall2 {
+	width: 10px;
+	height: 611px;
+	background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 110px;
+
+}
+
+
+.whitetall3 {
+	width: 489px;
+	height: 10px;
+	background-color: white;
+    position: absolute;
+    top: 320px;
+    left: 30px;
+
+}
+
+.whitetall4 {
+	width: 310px;
+	height: 10px;
+	background-color: white;
+    position: absolute;
+    top: 119px;
+    left: 120px;
+
+}
+
+.whitetall5 {
+	width: 310px;
+	height: 10px;
+	background-color: white;
+    position: absolute;
+    bottom: 170px;
+    left: 120px;
+
+}
+
+.whitetall6 {
+	width: 10px;
+	height: 200px;
+	background-color: white;
+    position: absolute;
+    top: 120px;
+    left: 268px;
+}
+
+.whitetall6 {
+	width: 10px;
+	height: 200px;
+	background-color: white;
+    position: absolute;
+    top: 120px;
+    left: 268px;
+}
+
+.whitetall7 {
+	width: 10px;
+	height: 200px;
+	background-color: white;
+    position: absolute;
+    bottom: -20px;
+    left: 268px;
+}
+
+
+@media only screen and (max-width: 600px){
+	.sqaure11 {background: blue}
