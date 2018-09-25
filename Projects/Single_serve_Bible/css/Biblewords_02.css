@@ -8,7 +8,7 @@ padding: 30px;
 	height: 200px;
 	background-color: rgba(231,13,13);
 	margin: 20px;
-	position: absolute;
+	position: sticky;
 	top: 100px;
 	left: 530px;
 	color: white;
