@@ -1,15 +1,16 @@
-body{
-margin: 0;
+div {
+margin: 40px
+padding: 30px;
 }
 
 .block1 {
 	width: 200px;
 	height: 200px;
-	background-color: red ;
+	background-color: rgba(231,13,13);
 	margin: 20px;
 	position: absolute;
-	top: 0;
-	left: 500px;
+	top: 100px;
+	left: 530px;
 	color: white;
 	font-size: 30px;
 	text-align: center;
@@ -36,8 +37,8 @@ a {
 	background-color: green ;
 	margin: 20px;
 	position: absolute;
-	top: 0;
-	left: 250px;
+	top: 100px;
+	left: 290px;
 	color: white;
 	font-size: 30px;
 	text-align: center;
@@ -48,11 +49,11 @@ a {
 .block3 {
 	width: 200px;
 	height: 200px;
-	background-color: blue ;
+	background-color: rgba(65,75,173);
 	margin: 20px;
 	position: absolute;
-	top: 250px;
-	left: 250px;
+	top: 350px;
+	left: 290px;
 	color: white;
 	font-size: 30px;
 	text-align: center;
@@ -67,8 +68,8 @@ a {
 	background-color: orange ;
 	margin: 20px;
 	position: absolute;
-	top: 250px;
-	left: 500px;
+	top: 350px;
+	left: 530px;
 	color: white;
 	font-size: 30px;
 	text-align: center;
@@ -78,11 +79,11 @@ a {
 .block5 {
 	width: 200px;
 	height: 200px;
-	background-color: purple ;
+	background-color: rgba(92,92,92) ;
 	margin: 20px;
 	position: absolute;
-	top: 250px;
-	left: 750px;
+	top: 350px;
+	left: 770px;
 	color: white;
 	font-size: 30px;
 	text-align: center;
@@ -92,11 +93,11 @@ a {
 .block6 {
 	width: 200px;
 	height: 200px;
-	background-color: silver ;
+	background-color: rgba(83,41,135);
 	margin: 20px;
 	position: absolute;
-	top: 0;
-	left: 750px;
+	top: 100px;
+	left: 770px;
 	color: white;
 	font-size: 30px;
 	text-align: center;
