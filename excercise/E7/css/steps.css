@@ -22,10 +22,28 @@ a {
 	color: silver;
 }
 
+
+
 a:hover {
 	text-decoration: none;
-	color: white;
+	color: yellow;
+	font-size: 20pt;
 
+
+}
+
+
+
+a.class2 {
+	text-decoration: none;
+	color: silver;
+	font-size: 16pt;
+
+}
+
+a.class2:hover{
+	font-size: 14pt;
+	color: rgba(51, 51, 51);
 
 }
 

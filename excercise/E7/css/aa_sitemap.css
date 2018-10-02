@@ -20,9 +20,8 @@ h2{
 	font-family: 'Varela Round', sans-serif;
 	font-size: 16pt;
 	text-align: center;
-	width: 100%;
-	color: black;	
 	width: 75%;
+	color: black;	
 	margin: auto;
 	line-height: 45px;	
 
@@ -35,7 +34,11 @@ h3{
 
 }
 
+a{
 
+	text-decoration: none;
+	color: silver;
+}
 a:link {
 	text-decoration: none;
 	color: silver;
@@ -47,6 +50,6 @@ a:link {
 
 a:hover {
 	color: white;
-
+	font-size: 20pt;
 
 }
