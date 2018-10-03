@@ -41,21 +41,16 @@ h3{
 }
 
 a{
-
 	text-decoration: none;
-	color: silver;
+	color: blue;
 }
-a:link {
-	text-decoration: none;
-	color: silver;
 
 
-
-}
 
 
 a:hover {
-	color: white;
-	font-size: 20pt;
+	color: blue;
+	text-decoration: underline;
+	
 
 }

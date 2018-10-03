@@ -3,7 +3,9 @@
 
 h1{
 	margin: 50px;
-	text-align: center; 
+	text-align: center;
+		font-family: 'Varela Round', sans-serif;
+ 
 	
 
 }
@@ -19,15 +21,16 @@ body {
 
 a {
 	text-decoration: none;
-	color: silver;
+	color: blue;
+
 }
 
 
 
 a:hover {
-	text-decoration: none;
-	color: yellow;
-	font-size: 20pt;
+	text-decoration: underline;
+	color: rgba(51, 51, 255);
+	
 
 
 }
@@ -36,14 +39,14 @@ a:hover {
 
 a.class2 {
 	text-decoration: none;
-	color: silver;
-	font-size: 16pt;
+	color: blue;
+	
 
 }
 
 a.class2:hover{
-	font-size: 14pt;
-	color: rgba(51, 51, 51);
+	text-decoration: none;
+	color: blue;
 
 }
 
@@ -68,6 +71,8 @@ h3 {
 	text-align: center; 
 	font-style: italic;
 	font-size: 16pt;
+		font-family: 'Varela Round', sans-serif;
+
 }
 
 
