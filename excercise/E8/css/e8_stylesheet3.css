@@ -1,0 +1,29 @@
+body{
+
+
+}
+
+h1{text-align: center;
+	margin: 50px;
+
+
+}
+
+h2{position: sticky;
+   left: -550px;
+   top: 100px;
+   text-align: center;
+   transform: rotate(-90deg);
+   
+
+}
+
+h3{text-align: center;
+
+
+}
+
+h4{text-align: center;
+	
+
+}

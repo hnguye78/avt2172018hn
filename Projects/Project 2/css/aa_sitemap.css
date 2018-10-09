@@ -3,25 +3,22 @@ img {
 	top:10px;
 	margin: 20px;
 	margin-top: -200px;
-	margin-bottom: 
+	margin-bottom: ;
 }
 
 
 h1{
 	margin: 50px;
 	text-align: center; 
-	line-height: 1px;
+	line-height: 30px;
 	margin-bottom: 20px;
+	color: black;
+	font-family: 'Varela Round', sans-serif;
 	
 
 }
 
-body {
-	
-
-
-
-}
+ 
 
 
 h2{
