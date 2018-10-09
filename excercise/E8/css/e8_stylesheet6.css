@@ -1,0 +1,45 @@
+body{
+
+
+}
+
+h1 {
+	font-size: 25pt;
+	margin: auto;
+	margin-top: 30px;
+	width: 475px;
+	margin-left: 200px;
+	font-family: 'K2D', sans-serif;
+	color: black;
+
+}
+
+.h1block{
+	background-color: rgba(153, 179, 255);
+	width: 500px;
+	height: 400px;
+}
+
+
+h2 {
+	font-family: 'K2D', sans-serif;
+	position: absolute;
+	left: -180px;
+	transform: rotate(-90deg);
+}
+
+.h2block{
+	background-color: rgba(153, 179, 255);
+	width: 500px;
+	height: 100px;
+	display: inline-block;
+
+}
+
+h4{
+	font-family: 'K2D', sans-serif;
+	margin-left: 200px;
+	margin-top: 20px;
+	width: 45%;
+
+}
