@@ -4,15 +4,16 @@ body{
 }
 
 h1 {
-	font-size: 15pt;
-	margin: auto;
-	margin-top: 50px;
-	width: 400px;
-	margin-left: 20px;
+	font-size: 14pt;
+	margin: ;
+	margin-top: 300px;
+	width: 300px;
+	margin-left: -50px;
 	font-family: 'Work Sans', sans-serif;
-	color:;
+	color:white;
 	font-weight: bold;
 	text-decoration: underline;
+	transform: rotate(90deg);
 
 
 
@@ -22,10 +23,10 @@ h1 {
 
 h2 {
 	font-family: 'Work Sans', sans-serif;
-	margin-left: 50px;
-	margin-top: -10px;
-	margin-bottom: 70px;
-	font-size: 20pt;
+	margin-left: 100px;
+	margin-top: -1000px;
+	margin-bottom: -85px;
+	font-size: 16pt;
 	font-weight: bold;
 
 	width: px;
@@ -68,11 +69,12 @@ sup {
 }
 
 .h1block{
-	background-color: red;
-	width: 500px;
+	background-color: rgb(0, 0, 128);
+	width: 200px;
 	height: 1000px;
 	padding: 10px;
-	display: inline-block;
+	margin-left: 1000px;
+	display:inline-block;
 }
 
 
