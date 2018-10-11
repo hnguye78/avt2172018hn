@@ -1,0 +1,79 @@
+body{
+
+
+}
+
+h1 {
+	font-size:28pt;
+	margin: auto;
+	margin-top: 300px;
+	width: 400px;
+	margin-left: -100px;
+	font-family: 'Work Sans', sans-serif;
+	color:;
+	font-weight: bold;
+	transform: rotate(-90deg);
+
+
+
+
+}
+
+h2 {
+	font-family: 'Work Sans', sans-serif;
+	margin-left: 50px;
+	font-size: 50pt;
+	font-weight: bold;
+	line-height: 63px;
+
+	
+
+
+	
+}
+
+h4{
+	font-family: 'Work Sans', sans-serif;
+	margin-left: 50px;
+	margin-top: 20px;
+	width: %;
+	display: inline-block;
+
+}
+.h1block{
+	background-color: white;
+	width: 500px;
+	height: 1000px;
+	padding: 10px;
+	display: inline-block;
+}
+
+
+.h4block{
+	background-color: rgba(255, 51, 51);
+	width: 600px;
+	height: 800px;
+	display: inline-block;
+	margin-left: -200px;
+	padding: 20px;
+	position: absolute;
+	top: 10px;
+}
+
+.h2block{
+	background-color: white;
+	width: 200px;
+	height: 100px;
+	display: inline-block;
+	margin-left: 30px;
+	padding: 20px;
+
+}
+
+a {
+	color: black;
+}
+
+
+
+
