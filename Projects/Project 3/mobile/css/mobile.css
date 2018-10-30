@@ -1,0 +1,62 @@
+.body{
+	font-size: 14pt;
+	font-family: 'Gothic A1', sans-serif;
+	text-align: center;
+	max-width: 40vw;
+	margin: auto;
+	padding-top: 35px;
+	padding-bottom: 35px;
+
+
+
+
+}
+
+body{
+	background-color: rgba(204, 204, 255);
+}
+
+
+#container {
+		max-width: 40vw;
+		margin: 0 auto;
+		background-color:  ;
+		text-align: center; 
+}	
+
+.headline {
+	width: 40vw;
+	margin: auto;
+	background-color:  ;
+	text-align: center;
+	padding-top: -50px;
+	
+}
+
+
+
+h1{
+	font-size: 30pt;
+	font-family: 'Gothic A1', sans-serif;
+	font-weight: 900;
+	width: 
+
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.whiteblock{
+	background-color: white;
+	width: 25vw;
+	left: 570px;
+	top: 950px;
+	position: absolute;
+	opacity: 
+
+}
