@@ -17,15 +17,15 @@ body{
 }
 
 #container {
-		max-width: 90px;
+		max-width: 70vw;
 		margin: 0 auto;
-		background-color:  ;
+		background-color: red ;
 		text-align: center; 
 }	
 
 .headline {
 	width: 50vw;
-	background-color:  ;
+	background-color: yellow ;
 	margin: 40px;
 	margin-left: -100px;
 	
@@ -66,4 +66,13 @@ img {
 	margin: 0 auto;
 	
 
+}
+
+
+/*@media screen and (max-width: 767px) {
+/* start of medium tablet styles */
+
+@media screen and (min-width: 20vw) {
+    .img2 {width: 200px; margin-left: -100px;}
+    .whiteblock {margin-left: 20vw;}
 }
