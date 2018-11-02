@@ -2,77 +2,94 @@
 	font-size: 14pt;
 	font-family: 'Gothic A1', sans-serif;
 	text-align: center;
-	max-width: 40vw;
+	max-width: 768px;
 	margin: auto;
 	padding-top: 35px;
 	padding-bottom: 35px;
-
-
-
-
 }
-
+.body2{
+	font-size: 14pt;
+	font-family: 'Gothic A1', sans-serif;
+	margin: 0 auto;
+	max-width: 20vw;
+}
 body{
 	background-color: rgba(255, 179, 218);
 }
-
 #container {
-		max-width: 70vw;
+		max-width: 768px;
 		margin: 0 auto;
-		background-color: red ;
+		background-color:  ;
 		text-align: center; 
 }	
-
+#container2{
+	margin-left: 200px;
+	margin-top: -80px;
+	max-width: 768px;
+	text-align: center;
+}
+#container3{
+	margin-left: auto;
+}
+#container4{
+	margin-left: auto;
+}
+/*@media screen and (max-width: 767px) {
+/* start of medium tablet styles */
 .headline {
 	width: 50vw;
-	background-color: yellow ;
-	margin: 40px;
-	margin-left: -100px;
-	
+	background-color: ;
+	margin: 0 auto;
+	margin-top: 50px;
+
 	
 }
-
-
-
 h1{
-	font-size: 20pt;
+	font-size: 30pt;
 	font-family: 'Gothic A1', sans-serif;
-	font-weight: 900;
-	
-
-
+	font-weight: 900;	
 }
-
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px;
+    max-width: 550px;
 }
-
 .img2 {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -50px;
+	display: ;
+  	margin: 0 auto;
+  	margin-left: -400px;
+}
+.img2 img {
+	width: 30%;
 
 }
-
-
+.img3 img {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: -200px;
+}
 .whiteblock{
 	background-color: white;
-	width: 40vw;
-	margin-left: 130px;
-	margin: 0 auto;
-	
-
+	width: 25vw;
+	top: -230px;
+ 	position: relative;
+ 	right: -80px;
+ 	margin: 0 auto;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
 }
-
-
-/*@media screen and (max-width: 767px) {
-/* start of medium tablet styles */
-
-@media screen and (min-width: 20vw) {
-    .img2 {width: 200px; margin-left: -100px;}
-    .whiteblock {margin-left: 20vw;}
-}
+@media only screen and (max-width: 900px) {
+    .img2 {
+    	margin: 0 auto;
+    	margin-top: -100px;
+    	max-width: 768px; 
+    }
+    .whiteblock {
+    	margin: 0 auto;
+    }
+    #container2 {
+    	margin: 0 auto;
+    	margin-top: ;
+    }
