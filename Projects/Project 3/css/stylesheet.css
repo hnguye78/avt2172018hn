@@ -67,10 +67,7 @@ img {
     margin-top: 70px;
     max-width: 900px;
 }
-.img2 {
-  	margin: 0 auto;
-  	margin-left: -400px;
-}
+
 .img2 img {
 	width: 25%;
 }
@@ -107,11 +104,13 @@ img {
     .img2 img{
     	margin: 0 auto;
     	margin-left:; 
+    	width: 50%;
     	margin-top: 70px;
 
     }
     .img4 img {
     	margin: 0 auto;
+    	width: 50%;
     	margin-top: 50px; 
     }
     .whiteblock {
@@ -121,10 +120,16 @@ img {
     }
     .whiteblock2 {
     	margin: 0 auto;
-    	margin-left: 0 auto ;
+    	margin-left: 0 auto;
+    	width: 40%;
     	
     }
     .container4{
     	margin: 0 auto;
     	margin-left: 0 auto;
+    }
+    h2{
+    	width: 130%;
+    	padding-left: -30px;
+    	padding-right: 50px;
     }
