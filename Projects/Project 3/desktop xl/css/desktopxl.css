@@ -18,9 +18,9 @@ body{
 	background-color: rgba(255, 179, 218);
 }
 #container {
-		max-width: 1024px;
+		max-width: 1440px;
 		margin: 0 auto;
-		background-color: red  ;
+		background-color:   ;
 		text-align: center; 
 }	
 #container2{
@@ -45,7 +45,7 @@ body{
 	
 }
 h1{
-	font-size: 30pt;
+	font-size: 35pt;
 	font-family: 'Gothic A1', sans-serif;
 	font-weight: 900;	
 }
@@ -54,7 +54,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px;
-    max-width: 800px;
+    max-width: 900px;
 }
 .img2 {
 	display: ;
