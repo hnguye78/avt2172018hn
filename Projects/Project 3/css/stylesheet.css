@@ -1,0 +1,130 @@
+.body{
+	font-size: 14pt;
+	font-family: 'Gothic A1', sans-serif;
+	max-width: 50vw;
+	min-width: 30vw;
+	margin: auto;
+	text-align: left;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.body2{
+	font-size: 14pt;
+	font-family: 'Gothic A1', sans-serif;
+	margin: 0 auto;
+	max-width: 20vw;
+	text-align: left;
+}
+body{
+	background-color: rgba(255, 179, 218);
+}
+#container {
+		max-width: 1440px;
+		margin: 0 auto;
+		background-color:  ;
+		text-align: center; 
+}	
+#container2{
+	margin-left: auto;
+	margin-top: -80px;
+	text-align: center;
+}
+#container3{
+	margin-left: auto;
+	margin
+}
+#container4{
+	margin-left: auto;
+	margin-top:-0px;
+	background-color: 
+}
+/*@media screen and (max-width: 767px) {
+/* start of medium tablet styles */
+.headline {
+	width: 50vw;
+	background-color: ;
+	margin: 0 auto;
+	margin-top: 50px;
+
+	
+}
+h1{
+	font-size: 35pt;
+	font-family: 'Gothic A1', sans-serif;
+	font-weight: 900;	
+}
+h2{
+	font-size: 11pt;
+	font-family: 'Gothic A1', sans-serif;
+	font-weight: 400;
+
+
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    max-width: 900px;
+}
+.img2 {
+  	margin: 0 auto;
+  	margin-left: -400px;
+}
+.img2 img {
+	width: 25%;
+}
+.img3 img {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.img4 img {
+	width: 25%;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-left: 300px;
+}
+.whiteblock{
+	background-color: white;
+	width: 25%;
+ 	margin: 0 auto;
+ 	margin-top: -250px;
+ 	margin-left: 700px;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+}
+.whiteblock2{
+	background-color: white;
+	width: 25%;
+ 	margin: 0 auto;
+ 	margin-top: -185px;
+ 	margin-left: 650px;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+}
+@media only screen and (max-width: 900px) {
+    .img2 img{
+    	margin: 0 auto;
+    	margin-left:; 
+    	margin-top: 70px;
+
+    }
+    .img4 img {
+    	margin: 0 auto;
+    	margin-top: 50px; 
+    }
+    .whiteblock {
+    	margin: 0 auto;
+    	margin-left: 0 auto;
+    	
+    }
+    .whiteblock2 {
+    	margin: 0 auto;
+    	margin-left: 0 auto ;
+    	
+    }
+    .container4{
+    	margin: 0 auto;
+    	margin-left: 0 auto;
+    }
