@@ -20,7 +20,7 @@ body{
 #container {
 		max-width: 1440px;
 		margin: 0 auto;
-		background-color:   ;
+		background-color:  ;
 		text-align: center; 
 }	
 #container2{
@@ -30,9 +30,12 @@ body{
 }
 #container3{
 	margin-left: auto;
+	margin
 }
 #container4{
 	margin-left: auto;
+	margin-top:-0px;
+	background-color: 
 }
 /*@media screen and (max-width: 767px) {
 /* start of medium tablet styles */
@@ -49,6 +52,13 @@ h1{
 	font-family: 'Gothic A1', sans-serif;
 	font-weight: 900;	
 }
+h2{
+	font-size: 11pt;
+	font-family: 'Gothic A1', sans-serif;
+	font-weight: 400;
+
+
+}
 img {
     display: block;
     margin-left: auto;
@@ -57,35 +67,63 @@ img {
     max-width: 900px;
 }
 .img2 {
-	display: ;
   	margin: 0 auto;
   	margin-left: -400px;
 }
 .img2 img {
-	width: 30%;
+	width: 25%;
 }
 .img3 img {
 	width: 50%;
 	margin: 0 auto;
-	margin-top: -200px;
+	margin-top: 100px;
+}
+.img4 img {
+	width: 25%;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-left: 300px;
 }
 .whiteblock{
 	background-color: white;
-	width: 25vw;
-	top: -270px;
- 	position: relative;
- 	right: -80px;
+	width: 25%;
  	margin: 0 auto;
+ 	margin-top: -250px;
+ 	margin-left: 700px;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+}
+.whiteblock2{
+	background-color: white;
+	width: 25%;
+ 	margin: 0 auto;
+ 	margin-top: -185px;
+ 	margin-left: 650px;
  	padding-top: 10px;
  	padding-bottom: 10px;
 }
 @media only screen and (max-width: 900px) {
-    .img2 {
+    .img2 img{
     	margin: 0 auto;
-    	margin-top: -100px;
-    	min-width: 
+    	margin-left:; 
+    	margin-top: 70px;
+
+    }
+    .img4 img {
+    	margin: 0 auto;
+    	margin-top: 50px; 
     }
     .whiteblock {
+    	margin: 0 auto;
+    	margin-left: 0 auto;
     	
     }
-
+    .whiteblock2 {
+    	margin: 0 auto;
+    	margin-left: 0 auto ;
+    	
+    }
+    .container4{
+    	margin: 0 auto;
+    	margin-left: 0 auto;
+    }
