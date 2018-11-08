@@ -1,48 +1,83 @@
+@media only screen {
+  and (min-device-width: 100px) 
+  and (max-device-width: 480px)
 .body{
-	font-size: 12pt;
+	font-size: 20pt;
 	font-family: 'Gothic A1', sans-serif;
-	max-width: 40vw;
-	min-width: 30vw;
-	margin: auto;
+	margin: 0 auto;
 	text-align: left;
-	padding-top: 35px;
-	padding-bottom: 35px;
+	max-width: 10vw;
 }
 .body2{
 	font-size: 14pt;
 	font-family: 'Gothic A1', sans-serif;
 	margin: 0 auto;
-	max-width: 20vw;
 	text-align: left;
 }
 body{
-	background-color: rgba(255, 179, 218);
+	 background: linear-gradient(to bottom right, #c4e8ed 18%, #ff99cc 81%);
 }
-#container {
+#maincontainer {
 		max-width: 1440px;
 		margin: 0 auto;
+		margin-left: 0 auto;
 		background-color:  ;
-		text-align: center; 
+		text-align: left; 
 }	
 #container2{
-	margin: 
-	margin-left: -300px;
-	margin-top: -80px;
-	text-align: center;
+	margin: 0 auto;
+	margin-left: 0 auto;
+	text-align: left;
+	background-color: ;
+}
+.whiteblock{
+	background-color: white;
+	width: 40%;
+ 	margin: 0 auto;
+ 
+ 	padding-bottom: 10px;
+ 	padding-left: 40px;
+ 	padding-right: 40px;
+ 	padding-top: 20px;
+}
+.img2 img {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 90px;
+}
+h3{
+	font-size: 27pt;
+	font-family: 'Gothic A1', sans-serif;
+	font-weight: 300;
+}
+h2{
+	font-size: 20pt;
+	font-family: 'Gothic A1', sans-serif;
+	font-weight: 300;
+	padding-left: 60px;
+	padding-right: 60px;
 }
 #container3{
 	margin-left: auto;
 	margin
+	background-color: ;
 }
+
 #container4{
-	margin-left: auto;
-	margin-top:-0px;
-	background-color: 
+	margin-left: 0 auto;
+	margin-top: 0 auto;
+	background-color: ;
+
+}
+.img4 img {
+	width: 55%;
+	margin: 0 auto;
+	margin-top: 20px;
 
 }
 /*@media screen and (max-width: 767px) {
 /* start of medium tablet styles */
-.headline {
+#container1 {
 	width: 50vw;
 	background-color: ;
 	margin: 0 auto;
@@ -51,21 +86,14 @@ body{
 	
 }
 h1{
-	font-size: 27pt;
+	font-size: 35pt;
 	font-family: 'Gothic A1', sans-serif;
 	font-weight: 900;	
+	margin-left: 100px;
+	margin-right: 100px;
+
 }
-h2{
-	font-size: 14pt;
-	font-family: 'Gothic A1', sans-serif;
-	font-weight: 300;
-	min-width: 
-}
-h3{
-	font-size: 14pt;
-	font-family: 'Gothic A1', sans-serif;
-	font-weight: 300;
-}
+
 img {
     display: block;
     margin-left: auto;
@@ -74,148 +102,27 @@ img {
     max-width: 900px;
     min-width: 30%;
 }
-
-.img2 img {
-	width: 25%;
-	margin: 0 auto;
-	margin-left: 300px;
-	margin-top: 90px;
-}
 .img3 img {
-	width: 50%;
+	width: 70%;
 	margin: 0 auto;
 	margin-top: 100px;
 }
-.img4 img {
-	width: 25%;
-	margin: 0 auto;
-	margin-top: 20px;
-	margin-left: 300px;
-}
-.whiteblock{
-	background-color: white;
-	width: 25%;
- 	margin: 0 auto;
- 	margin-top: -250px;
- 	margin-left: 700px;
- 	padding-top: 10px;
- 	padding-bottom: 10px;
-}
+
 .whiteblock2{
 	background-color: white;
-	width: 25%;
+	width: 40%;
  	margin: 0 auto;
- 	margin-top: -185px;
- 	margin-left: 650px;
- 	padding-top: 10px;
+ 
  	padding-bottom: 10px;
+ 	padding-left: 40px;
+ 	padding-right: 40px;
+ 	padding-top: 20px;
 }
 
-@media only screen and (min-width: 375px) {
-
-	#container4{
-		margin-bottom: 1200px;
-	}
-	 .whiteblock {
-    	margin: 0 auto;
-    	margin-left: ;
-    	margin-top: px;
-    	width: 45%;
-    }
-    h1{
-    	font-weight: ;
-    	font-size: 42pt;
-    	min-width: 70%;
-    }
-    h2{
-    	font-size: 11pt;
-    }
-    h3{
-    	font-size: 30pt;
-    	min-width: 50%;
-    }
-    .body{
-    	min-width: 60%;
-    }
-    .body2{
-    	min-width: 70%;
-    }
-    .whiteblock2 {
-    	margin: 0 auto;
-    	margin-left: 0 auto;
-    	width: 45%;
-	}
-	.img2 img {
-		min-width: 60%;
-		margin: 0 auto;
-		margin-top: 70px;
-	}
-
-	.img4 img{
-		width: 70%;
-		margin: 0 auto;
-	}
-
-	
-@media only screen and (min-width: 768px) {
-	#container2{
-		margin-left: 70px;
-	}
-
-	#container4{
-		margin-bottom: 1200px;
-		margin-left: 70px;
-	}
-	 .whiteblock {
-    	margin: 0 auto;
-    	margin-left: 100px ;
-    	margin-top: -240px;
-    	width: 25%;
-    	display: inline-block;
-    	max-height: 10%;
-    	min-width: 20
-    }
-    .whiteblock2 {
-		margin-left: 100px ;
-		margin-top: -2000px;
-		width: 25%;
-		display: inline-block;
 }
-    h1{
-    	font-weight: ;
-    	font-size: 28pt;
-    	min-width: 70%;
-    }
-    h2{
-    	font-size: 15pt;
-    	width: 90%;
-    	margin: 0 auto;
-    	line-height: 35px;
-    }
-    h3{
-    	font-size: 13pt;
-    	min-width: 50%;
-    }
-    .body{
-    	min-width: 60%;
-    }
-    .body2{
-    	min-width: 70%;
-    }
 
-	.img2 img {
-		min-width: 30%;
-		margin-left: 150px;
-		margin-top: 70px;
-	}
-
-	.img4 img{
-		width: 30%;
-		margin-left: 150px;
-
-	}
-
-
-
+	margin-top: -320px;
+ 	margin-left: 980px;
+ 	padding-top: 10px;
 
 }
