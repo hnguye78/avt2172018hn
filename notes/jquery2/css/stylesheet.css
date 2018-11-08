@@ -19,11 +19,14 @@ background-color: purple;
 .blue86{
 background-color: blue;
 }
+.redBG{
+
+}
 h1, h2 {
 	margin: 0 auto;
 }
 h1{
-
+transition: all 2s;
 }
 h2{
 
