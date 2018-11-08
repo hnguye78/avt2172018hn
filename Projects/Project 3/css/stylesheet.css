@@ -1,7 +1,7 @@
 .body{
-	font-size: 14pt;
+	font-size: 12pt;
 	font-family: 'Gothic A1', sans-serif;
-	max-width: 50vw;
+	max-width: 40vw;
 	min-width: 30vw;
 	margin: auto;
 	text-align: left;
@@ -25,7 +25,8 @@ body{
 		text-align: center; 
 }	
 #container2{
-	margin-left: auto;
+	margin: 
+	margin-left: -300px;
 	margin-top: -80px;
 	text-align: center;
 }
@@ -49,16 +50,14 @@ body{
 	
 }
 h1{
-	font-size: 35pt;
+	font-size: 27pt;
 	font-family: 'Gothic A1', sans-serif;
 	font-weight: 900;	
 }
 h2{
-	font-size: 11pt;
+	font-size: 14pt;
 	font-family: 'Gothic A1', sans-serif;
-	font-weight: 400;
-
-
+	font-weight: 300;
 }
 img {
     display: block;
@@ -66,10 +65,14 @@ img {
     margin-right: auto;
     margin-top: 70px;
     max-width: 900px;
+    min-width: 30%;
 }
 
 .img2 img {
 	width: 25%;
+	margin: 0 auto;
+	margin-left: 300px;
+	margin-top: 90px;
 }
 .img3 img {
 	width: 50%;
@@ -104,8 +107,10 @@ img {
     .img2 img{
     	margin: 0 auto;
     	margin-left:; 
-    	width: 50%;
+    	width: 70%;
     	margin-top: 70px;
+    	max-width: 30%;
+    	min-width: 60%;
 
     }
     .img4 img {
@@ -116,6 +121,7 @@ img {
     .whiteblock {
     	margin: 0 auto;
     	margin-left: 0 auto;
+    	width: 40%;
     	
     }
     .whiteblock2 {
