@@ -144,7 +144,7 @@ img {
     	margin: 0 auto;
     	margin-left: 0 auto;
     	width: 45%;
-}
+	}
 	.img2 img {
 		min-width: 60%;
 		margin: 0 auto;
@@ -155,4 +155,67 @@ img {
 		width: 70%;
 		margin: 0 auto;
 	}
+
+	
+@media only screen and (min-width: 768px) {
+	#container2{
+		margin-left: 70px;
+	}
+
+	#container4{
+		margin-bottom: 1200px;
+		margin-left: 70px;
+	}
+	 .whiteblock {
+    	margin: 0 auto;
+    	margin-left: 100px ;
+    	margin-top: -240px;
+    	width: 25%;
+    	display: inline-block;
+    	max-height: 10%;
+    	min-width: 20
+    }
+    .whiteblock2 {
+		margin-left: 100px ;
+		margin-top: -2000px;
+		width: 25%;
+		display: inline-block;
+}
+    h1{
+    	font-weight: ;
+    	font-size: 28pt;
+    	min-width: 70%;
+    }
+    h2{
+    	font-size: 15pt;
+    	width: 90%;
+    	margin: 0 auto;
+    	line-height: 35px;
+    }
+    h3{
+    	font-size: 13pt;
+    	min-width: 50%;
+    }
+    .body{
+    	min-width: 60%;
+    }
+    .body2{
+    	min-width: 70%;
+    }
+
+	.img2 img {
+		min-width: 30%;
+		margin-left: 150px;
+		margin-top: 70px;
+	}
+
+	.img4 img{
+		width: 30%;
+		margin-left: 150px;
+
+	}
+
+
+
+
 }
