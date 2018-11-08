@@ -58,6 +58,12 @@ h2{
 	font-size: 14pt;
 	font-family: 'Gothic A1', sans-serif;
 	font-weight: 300;
+	min-width: 
+}
+h3{
+	font-size: 14pt;
+	font-family: 'Gothic A1', sans-serif;
+	font-weight: 300;
 }
 img {
     display: block;
@@ -103,39 +109,42 @@ img {
  	padding-top: 10px;
  	padding-bottom: 10px;
 }
-@media only screen and (max-width: 900px) {
-    .img2 img{
-    	margin: 0 auto;
-    	margin-left:; 
-    	width: 70%;
-    	margin-top: 70px;
-    	max-width: 30%;
-    	min-width: 60%;
 
-    }
-    .img4 img {
+@media only screen and (min-width: 375px) {
+
+	 .whiteblock {
     	margin: 0 auto;
-    	width: 50%;
-    	margin-top: 50px; 
+    	margin-left: ;
+    	margin-top: px;
+    	width: 45%;
     }
-    .whiteblock {
-    	margin: 0 auto;
-    	margin-left: 0 auto;
-    	width: 40%;
-    	
+    h1{
+    	font-weight: ;
+    	font-size: 42pt;
+    	min-width: 70%;
+    }
+    h2{
+    	font-size: 30pt;
+    }
+    h3{
+    	font-size: 30pt;
+    }
+    .body{
+    	min-width: 60%;
     }
     .whiteblock2 {
     	margin: 0 auto;
     	margin-left: 0 auto;
-    	width: 40%;
-    	
-    }
-    .container4{
-    	margin: 0 auto;
-    	margin-left: 0 auto;
-    }
-    h2{
-    	width: 130%;
-    	padding-left: -30px;
-    	padding-right: 50px;
-    }
+    	width: 45%;
+}
+	.img2 img {
+		min-width: 60%;
+		margin: 0 auto;
+		margin-top: 70px;
+	}
+
+	.img4 img{
+		width: 70%;
+		margin: 0 auto;
+	}
+}
