@@ -1,0 +1,16 @@
+h3{
+	font-size: 18pt;
+	font-family:  'Catamaran', sans-serif;
+	margin-bottom: -10px;
+}
+h1{
+	font-family:  'Catamaran', sans-serif;
+}
+h2{
+	font-family:  'Catamaran', sans-serif;
+	font-size: 20pt;
+	margin-top: -20px;
+}
+body{
+	background-color: rgba(255, 179, 179);
+}
