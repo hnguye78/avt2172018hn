@@ -1,0 +1,52 @@
+body{
+	font-family: 'Oxygen', sans-serif;
+	margin: 20px;
+}
+#maincontainer{
+width: 1000px;
+}
+#container{
+
+}
+#container2{
+
+}
+#container{
+	
+}
+h2{
+font-family: 'Oxygen', sans-serif;
+font-size: 14pt;
+
+}
+h4{
+font-family: 'Oxygen', sans-serif;
+font-size: 14pt;
+margin-top: -40px;
+margin-left: 100px;
+}
+h3{
+font-family: 'Oxygen', sans-serif;
+font-size: 14pt;
+margin-top: -40px;
+margin-left: 100px;
+}
+h5{
+font-family: 'Oxygen', sans-serif;
+font-size: 14pt;
+margin-top: -40px;
+margin-left: 100px;
+}
+h6{
+font-family: 'Oxygen', sans-serif;
+font-size: 14pt;
+margin-top: -40px;
+margin-left: 100px;
+}
+.redrectangle{
+	width: 1020px;
+	height: 400px;
+	background-color: tomato;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}

@@ -1,5 +1,11 @@
 body{
+	font-family: 'Oxygen', sans-serif;
+	margin: 20px;
 
+
+}
+#maincontainer{
+width: 1000px;
 }
 #container{
 
@@ -9,4 +15,114 @@ body{
 }
 #container{
 	
+}
+h4{
+font-family: 'Oxygen', sans-serif;
+font-size: 14pt;
+margin-top: -40px;
+margin-left: 100px;
+}
+h5{
+font-family: 'Oxygen', sans-serif;
+font-size: 14pt;
+margin-top: -48px;
+margin-left: 250px;
+}
+h6{
+font-family: 'Oxygen', sans-serif;
+font-size: 14pt;
+margin-top: -40pt;
+margin-left: 380px;
+}
+.words h6{
+font-family: 'Oxygen', sans-serif;
+font-size: 33pt;
+color: white;
+position: relative;
+left: -330px;
+top: -2130px
+}
+.words2 h6{
+font-family: 'Oxygen', sans-serif;
+font-size: 33pt;
+color: white;
+position: relative;
+left: -330px;
+top: -1790px
+}
+.words3 h6{
+font-family: 'Oxygen', sans-serif;
+font-size: 33pt;
+color: white;
+position: relative;
+left: -330px;
+top: -1320px;
+}
+.words4 h6{
+font-family: 'Oxygen', sans-serif;
+font-size: 33pt;
+color: white;
+position: relative;
+left: -330px;
+top: -840px
+}
+.img1 img{
+	width: 60%;
+	height: 10%;
+}
+.img2 img{
+	width: 35%;
+	height: 10%;
+	position: relative;
+	left: 350px;
+	top: -400px;
+}
+.img3 img{
+	width: 28%;
+	height: 10%;
+	position: relative;
+	left: 370px;
+	top: -430px;
+}
+.img4 img{
+	width: 28%;
+	height: 10%;
+	position: relative;
+	left: 370px;
+	top: -430px;
+}
+.img5 img{
+	width: 28%;
+	height: 10%;
+	position: relative;
+	left: 370px;
+	top: -430px;
+}
+.redrectangle{
+	width: 1020px;
+	height: 400px;
+	background-color: tomato;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.goldrectangle{
+	width: 1020px;
+	height: 400px;
+	background-color: rgba(255, 217, 102);
+	margin-bottom: 40px;
+	margin-top: -330px;
+}
+.silverrectangle{
+	width: 1020px;
+	height: 400px;
+	background-color: rgba(217, 217, 217);
+	margin-bottom: 40px;
+	margin-top: -330px
+}
+.bronzerectangle{
+	width: 1020px;
+	height: 400px;
+	background-color: rgba(210, 166, 121);
+	margin-bottom: 40px;
+	margin-top: -330px;
 }
