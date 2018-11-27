@@ -8,12 +8,12 @@ function cartoonGuess() {
 	var imageArray = ["imgs/nemo.jpg", "imgs/dory.jpg", "imgs/buzzlight.jpeg", "imgs/woody.jpeg","imgs/wall_e.jpg","imgs/eva.png","imgs/mike_w.jpg","imgs/Sulley-right.png","imgs/doris.jpg","imgs/dash.jpg","imgs/elastigirl.jpg",];
 	var cartoon = Math.floor(Math.random() * cartoonArray.length);
 	var answerlower = cartoonArray[cartoon].toLowerCase();
-	var answerlower = cartoonArray[cartoon].toUpperCase();
+	var answerupper = cartoonArray[cartoon].toUpperCase();
 	var answer = cartoonArray[cartoon];
 	console.log(answer);
 	console.log(answerlower);
 	console.log(answerupper);
-	$('img').attr('src', imageArray[index]);
+	$('img').attr('src', imageArray[cartoon]);
 	$('#submit').click(function() {
 		var guess = $('input').val();
 		console.log(guess);
