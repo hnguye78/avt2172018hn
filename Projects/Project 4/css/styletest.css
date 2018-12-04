@@ -137,42 +137,46 @@ ul.a{
 	height: 400px;
 	position: absolute;
 	margin: 0 auto;
-	bottom: -500px;
+	bottom: -690px;
 	left: 0px;
-	background: url(../trophies/imgs/DSC_0681.jpg) no-repeat top center;
+	background: url(../imgs/DSC_0681_edit.jpg) no-repeat top center;
 	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-blend-mode: multiply;
-  background-color: tomato;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-color: tomato;
 }
 .bluerectangle{
 	width: 100vw;
 	height: 400px;
+	position: absolute;
+	margin: 0 auto;
+	bottom: -1170px;
+	left: 0px;
+	background: url(../imgs/DSC_0644_edit2.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-blend-mode: multiply;
 	background-color: rgba(51, 133, 255);
-	position: absolute;
-	margin: 0 auto;
-	bottom: -1000px;
-	left: 0px;
 }
-.goldrectangle{
-	width: 100vw;
-	height: 400px;
-	background-color: rgba(255, 195, 77);
-	position: absolute;
-	margin: 0 auto;
-	bottom: -1500px;
-	left: 0px;
 }
 .grayrectangle{
 	width: 100vw;
 	height: 400px;
-	background-color: rgba(179, 179, 179);
 	position: absolute;
 	margin: 0 auto;
-	bottom: -1500px;
+	bottom: -1270px;
 	left: 0px;
+	background: url(../imgs/DSC_0695.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-color: rgba(179, 179, 179);
 }
 .dropbtn {
     color: black;
