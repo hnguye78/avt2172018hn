@@ -15,7 +15,7 @@ font-family: 'Oxygen', sans-serif;
 font-size: 40pt;
 color: white;
 position: absolute;
-bottom: -200px;
+top: 400px;
 left: 40px;
 }
 p{
@@ -118,7 +118,10 @@ div.gallery2 {
     height: auto;
     position: absolute;
     top: 700px;
-    left: 200px;
+    left: 220px;
+}
+div.gallery{
+	margin-left: 2px;
 }
 
 div.gallery:hover {
@@ -135,10 +138,10 @@ div.desc {
     text-align: center;
 }
 div.all{
-	width: 1000px;
+	width: 950px;
 	margin: 0 auto;
 	margin-top: 1230px;
-	margin-left: 200px;
+	margin-left: 220px;
 }
 
 /*mobile responsive*/
@@ -161,13 +164,20 @@ div.all{
     .responsive {
         width: 100%;
     }
+    .img1 img{
+    	width: 70%;
+    	height: auto;
+    }
 }
 @media only screen and (max-width: 768px) {
 	.mobile-nav {
 		display: block;
 		margin-left: 10px;
-		
 	}
+	.img1 img{
+    	width: 70%;
+    	height: 50%;
+    }
 	.hide-nav {display: none;}
 	li {float: none;}
 	.desktop-nav {display: none;}

@@ -15,7 +15,7 @@ font-family: 'Oxygen', sans-serif;
 font-size: 40pt;
 color: white;
 position: absolute;
-bottom: -240px;
+top: 380px;
 left: 40px;
 }
 p{
@@ -38,7 +38,10 @@ margin-top: -250px;
 }
 .nav, li{
 float: right;
-margin: 
+margin-bottom: 10px; 
+}
+.expand{
+	margin-bottom: 10px;
 }
 ul{
 	margin: 0;
@@ -174,5 +177,5 @@ div.all{
 	.hide-nav {display: none;}
 	li {float: none;}
 	.desktop-nav {display: none;}
-
 }
+

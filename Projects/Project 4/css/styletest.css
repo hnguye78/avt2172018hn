@@ -37,7 +37,7 @@ a.class2{
 	color: white;
 	font-size: 40pt;
 	position: absolute;
-	bottom: -550px;
+	bottom: -950px;
 	font-family: 'Oxygen', sans-serif;
 	font-weight: 700;
 }
@@ -46,7 +46,7 @@ a.class3{
 	color: white;
 	font-size: 40pt;
 	position: absolute;
-	bottom: -1050px;
+	bottom: -1570px;
 	font-family: 'Oxygen', sans-serif;
 	font-weight: 700;
 }
@@ -55,7 +55,7 @@ a.class5{
 	color: white;
 	font-size: 40pt;
 	position: absolute;
-	bottom: -1550px;;
+	bottom: -2100px;;
 	font-family: 'Oxygen', sans-serif;
 	font-weight: 700;
 }
@@ -93,11 +93,10 @@ ul.a{
 	max-width: 100%;
 	min-width: 90%;
 	height: auto;
-	position: absolute;
+	position: fixed;
 	margin: 0;
 	left: 0px;
 	top: 350px;
-	margin-bottom: 700px;
 
 }
 .img2 img{
@@ -137,7 +136,7 @@ ul.a{
 	height: 400px;
 	position: absolute;
 	margin: 0 auto;
-	bottom: -690px;
+	bottom: -1100px;
 	left: 0px;
 	margin-bottom: 130px;
 	background: url(../imgs/DSC_0681_edit.jpg) no-repeat top center;
@@ -166,7 +165,7 @@ ul.a{
 	height: 400px;
 	position: absolute;
 	margin: 0 auto;
-	bottom: -1070px;
+	bottom: -1570px;
 	left: 0px;
 	background: url(../imgs/DSC_0644_edit2.jpg) no-repeat top center;
 	-webkit-background-size: cover;
@@ -181,7 +180,7 @@ ul.a{
 	height: 400px;
 	position: absolute;
 	margin: 0 auto;
-	bottom: -1600px;
+	bottom: -2100px;
 	left: 0px;
 	background: url(../imgs/DSC_0695_edit.jpg) no-repeat top center;
 	-webkit-background-size: cover;
@@ -194,7 +193,7 @@ ul.a{
 @media only screen and (max-width: 768px) {
 	.mobile-nav {
 		display: block;
-		margin-left: 10px;
+		margin-left: 100px;
 	}
 	.hide-nav {display: none;}
 	li {float: none;}
