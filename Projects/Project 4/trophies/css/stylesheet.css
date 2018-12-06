@@ -15,7 +15,7 @@ font-family: 'Oxygen', sans-serif;
 font-size: 40pt;
 color: white;
 position: absolute;
-top: 380px;
+bottom: -200px;
 left: 40px;
 }
 p{
@@ -31,6 +31,10 @@ margin-top: -250px;
 .desktop-nav{
 	margin-top: -20px;
 	margin-right: 90px;
+}
+.mobile-nav {
+	display: none;
+	/*background-color: blue;*/
 }
 .nav, li{
 float: right;
@@ -70,10 +74,16 @@ a:hover{
 .redrectangle{
 	width: 100vw;
 	height: 400px;
-	background-color: tomato;
 	margin-bottom: 40px;
 	margin-top: 100px;
-	position: relative;
+	position: absolute;
+	background: url(../imgs/DSC_0681_edit.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-color: tomato;
 }
 .img2 img{
 	width: 25%;
@@ -83,12 +93,14 @@ a:hover{
 	opacity: .5;
 }
 .img3 img{
-	width: 40%;
+	width: 60%;
+	height: auto;
 	position: absolute;
 	left: 30%;
 }
 .img4 img{
 	width: 25%;
+	height: auto;
 	height: 10%;
 }
 
@@ -96,7 +108,17 @@ div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 340px;
+    width: 240px;
+}
+div.gallery2 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 740px;
+    height: auto;
+    position: absolute;
+    top: 700px;
+    left: 200px;
 }
 
 div.gallery:hover {
@@ -115,41 +137,39 @@ div.desc {
 div.all{
 	width: 1000px;
 	margin: 0 auto;
-	margin-top: 430px;
-	margin-left: 300px;
+	margin-top: 1230px;
+	margin-left: 200px;
 }
 
-
-.dropbtn {
-    color: black;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    background-color: white;
-    margin-top: -14px;
+/*mobile responsive*/
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+        margin-left: -80px;
+    }
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    z-index: 1;
+/*menu navigation*/
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
 }
+@media only screen and (max-width: 768px) {
+	.mobile-nav {
+		display: block;
+		margin-left: 10px;
+		
+	}
+	.hide-nav {display: none;}
+	li {float: none;}
+	.desktop-nav {display: none;}
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
 }
-.dropdown-content a:hover {background-color: blue;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: red;}

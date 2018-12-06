@@ -32,6 +32,10 @@ margin-top: -250px;
 	margin-top: -20px;
 	margin-right: 90px;
 }
+.mobile-nav {
+	display: none;
+	/*background-color: blue;*/
+}
 .nav, li{
 float: right;
 margin: 
@@ -104,10 +108,16 @@ color: rgba(191, 191, 191);
 .redrectangle{
 	width: 100vw;
 	height: 400px;
-	background-color: rgba(179, 179, 179);
 	margin-bottom: 40px;
 	margin-top: 100px;
-	position: relative;
+	position: absolute;
+	background: url(../imgs/DSC_0695_edit.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-color: rgba(179, 179, 179);
 }
 .img2 img{
 	width: 44%;
@@ -142,7 +152,26 @@ div.gallery img {
     width: 100%;
     height: auto;
 }
-
+div.gallery2 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 530px;
+    height: auto;
+    position: absolute;
+    top: 700px;
+    left: 350px;
+}
+div.gallery3 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 530px;
+    height: auto;
+    position: absolute;
+    top: 1800px;
+    left: 350px;
+}
 div.desc {
     padding: 15px;
     text-align: center;
@@ -154,37 +183,35 @@ div.all{
 	margin-left: 300px;
 }
 
-
-.dropbtn {
-    color: black;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    background-color: white;
-    margin-top: -14px;
+/*mobile responsive*/
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    z-index: 1;
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
 }
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+/*mobile menu nav*/
+@media only screen and (max-width: 768px) {
+	.mobile-nav {
+		display: block;
+		margin-left: 10px;
+		
+	}
+	.hide-nav {display: none;}
+	li {float: none;}
+	.desktop-nav {display: none;}
+
 }
-.dropdown-content a:hover {background-color: blue;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: red;}

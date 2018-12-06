@@ -42,6 +42,7 @@ h4 {
 	.mobile-nav {
 		display: block;
 		margin-left: 100px;
+		margin-bottom: 30px;
 	}
 	.hide-nav {display: none;}
 	li {float: none;}

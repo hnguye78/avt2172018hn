@@ -7,14 +7,17 @@ p{
 }
 #maincontainer{
 width: 100vw;
-height: 2000px;
 background-color: 
-margin-bottom: -10px;
+margin-bottom: 1000px;
 }
 #container{
 }
 .desktop-nav{
 	margin-top: -30px;
+}
+.mobile-nav {
+	display: none;
+	/*background-color: blue;*/
 }
 .headers{
 	float: left;
@@ -34,7 +37,7 @@ a.class2{
 	color: white;
 	font-size: 40pt;
 	position: absolute;
-	bottom: -500px;
+	bottom: -550px;
 	font-family: 'Oxygen', sans-serif;
 	font-weight: 700;
 }
@@ -43,16 +46,7 @@ a.class3{
 	color: white;
 	font-size: 40pt;
 	position: absolute;
-	bottom: -1000px;
-	font-family: 'Oxygen', sans-serif;
-	font-weight: 700;
-}
-a.class4{
-	text-decoration: none;
-	color: white;
-	font-size: 40pt;
-	position: absolute;
-	bottom: -1500px;
+	bottom: -1050px;
 	font-family: 'Oxygen', sans-serif;
 	font-weight: 700;
 }
@@ -61,7 +55,7 @@ a.class5{
 	color: white;
 	font-size: 40pt;
 	position: absolute;
-	bottom: -1500px;;
+	bottom: -1550px;;
 	font-family: 'Oxygen', sans-serif;
 	font-weight: 700;
 }
@@ -85,6 +79,7 @@ margin: -10px;
 }
 ul{
 	margin: 0;
+	margin-bottom: 30px;
 }
 li{
 	padding: 0 25px;
@@ -95,10 +90,15 @@ ul.a{
 	float: left;
 }
 .img1 img{
-	width:100vw;
-	margin-top: 40px;
+	max-width: 100%;
+	min-width: 90%;
+	height: auto;
 	position: absolute;
-	left: 0;
+	margin: 0;
+	left: 0px;
+	top: 350px;
+	margin-bottom: 700px;
+
 }
 .img2 img{
 	width: 19.5%;
@@ -139,6 +139,7 @@ ul.a{
 	margin: 0 auto;
 	bottom: -690px;
 	left: 0px;
+	margin-bottom: 130px;
 	background: url(../imgs/DSC_0681_edit.jpg) no-repeat top center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -147,12 +148,25 @@ ul.a{
 	background-blend-mode: multiply;
 	background-color: tomato;
 }
+.rectangle{
+	width: 100vw;
+	height: 500px;
+	position: absolute;
+	margin: 0 auto;
+	bottom: -50px;
+	left: 0px;
+	background: url(../imgs/me_competition2.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 .bluerectangle{
 	width: 100vw;
 	height: 400px;
 	position: absolute;
 	margin: 0 auto;
-	bottom: -1170px;
+	bottom: -1070px;
 	left: 0px;
 	background: url(../imgs/DSC_0644_edit2.jpg) no-repeat top center;
 	-webkit-background-size: cover;
@@ -162,15 +176,14 @@ ul.a{
 	background-blend-mode: multiply;
 	background-color: rgba(51, 133, 255);
 }
-}
 .grayrectangle{
 	width: 100vw;
 	height: 400px;
 	position: absolute;
 	margin: 0 auto;
-	bottom: -1270px;
+	bottom: -1600px;
 	left: 0px;
-	background: url(../imgs/DSC_0695.jpg) no-repeat top center;
+	background: url(../imgs/DSC_0695_edit.jpg) no-repeat top center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -178,44 +191,13 @@ ul.a{
 	background-blend-mode: multiply;
 	background-color: rgba(179, 179, 179);
 }
-.dropbtn {
-    color: black;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    background-color: white;
-    margin-top: -14px;
-}
+@media only screen and (max-width: 768px) {
+	.mobile-nav {
+		display: block;
+		margin-left: 10px;
+	}
+	.hide-nav {display: none;}
+	li {float: none;}
+	.desktop-nav {display: none;}
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-.dropdown-content a:hover {background-color: blue;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: red;}
-
-
-
-
-.rotate{
-	transition: transform .9s ease-in-out;
-	transform: rotate(360deg);
 }
