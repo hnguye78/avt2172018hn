@@ -8,7 +8,7 @@ p{
 #maincontainer{
 width: 100vw;
 background-color: 
-margin-bottom: 1000px;
+
 }
 #container{
 }
@@ -93,7 +93,7 @@ ul.a{
 	max-width: 100%;
 	min-width: 90%;
 	height: auto;
-	position: fixed;
+	position: absolute;
 	margin: 0;
 	left: 0px;
 	top: 350px;
@@ -195,8 +195,32 @@ ul.a{
 		display: block;
 		margin-left: 100px;
 	}
+
+	.redrectangle{
+	margin-bottom: 800px;
+}
+a.class2{
+	margin-bottom: 680px; 
+}
+	.bluerectangle{
+	margin-bottom: 700px;
+}
+a.class3{
+	margin-bottom: 730px; 
+}
+	.grayrectangle{
+	margin-bottom: 660px;
+}
+a.class5{
+	margin-bottom: 700px; 
+}
+.img5 img{
+	margin-bottom: 300px;
+
+}
 	.hide-nav {display: none;}
 	li {float: none;}
 	.desktop-nav {display: none;}
 
 }
+
