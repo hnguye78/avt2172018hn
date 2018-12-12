@@ -194,6 +194,7 @@ ul.a{
 	.mobile-nav {
 		display: block;
 		margin-left: 100px;
+		line-height: 40px;
 	}
 
 	.redrectangle{
