@@ -160,11 +160,20 @@ div.all{
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
     .responsive {
         width: 100%;
         margin-left: -40px;
     }
+    div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 100vw;
+}
+	div.all{
+   	margin-left: 130px;
+   }
 }
 
 /*mobile menu nav*/
