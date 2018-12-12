@@ -179,7 +179,7 @@ div.all{
     	height: auto;
     }
     .redrectangle{
-    	width: 1200px;}
+    	width: 800px;}
 /*gallery fr MOBILE*/
 div.gallery {
     margin: 5px;
@@ -206,14 +206,14 @@ div.gallery:hover {
 }
 
 div.gallery img {
-    width: 100%;
+    width: 95vw;
     height: auto;
 }
 div.gallery2 {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 740px;
+    width: 540px;
     height: auto;
     position: absolute;
     top: 700px;
@@ -226,7 +226,7 @@ div.desc {
 }
 
     div.all{
-   	margin-left: 100px;
+   	margin-left: 150px;
    }
 
 }

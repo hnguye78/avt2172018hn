@@ -165,14 +165,17 @@ div.all{
         width: 100%;
         margin-left: -40px;
     }
+    .redrectangle{
+    	width: 500px;
+    }
     div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 100vw;
+    width: 90vw;
 }
 	div.all{
-   	margin-left: 130px;
+   	margin-left: 80px;
    }
 }
 
