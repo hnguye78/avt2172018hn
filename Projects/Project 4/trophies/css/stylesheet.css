@@ -141,7 +141,7 @@ div.desc {
     text-align: center;
 }
 div.all{
-	width: 950px;
+	width: 100%;
 	margin: 0 auto;
 	margin-top: 1230px;
 	margin-left: 220px;
@@ -197,23 +197,22 @@ div.gallery2 {
     top: 700px;
     left: 220px;
 }
-div.gallery{
-	margin-left: 2px;
+div.gallery3{
+    width: 100vw;
 }
-
 div.gallery:hover {
     border: 1px solid #777;
 }
 
 div.gallery img {
-    width: 95vw;
+    width: 100vw;
     height: auto;
 }
 div.gallery2 {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 540px;
+    width: 100vw;
     height: auto;
     position: absolute;
     top: 700px;
@@ -226,7 +225,7 @@ div.desc {
 }
 
     div.all{
-   	margin-left: 150px;
+   	margin-left: 70px;
    }
 
 }

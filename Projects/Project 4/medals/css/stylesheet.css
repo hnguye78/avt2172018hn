@@ -139,7 +139,7 @@ div.desc {
     text-align: center;
 }
 div.all{
-	width: 1000px;
+	width: 100%;
 	margin: 0 auto;
 	margin-top: 1330px;
 	margin-left: 200px;
@@ -168,11 +168,22 @@ div.all{
     .redrectangle{
     	width: 500px;
     }
+
     div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
     width: 90vw;
+}
+	div.gallery2 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 740px;
+    height: auto;
+    position: absolute;
+    top: 700px;
+    left: 20px;
 }
 	div.all{
    	margin-left: 75px;
@@ -189,5 +200,15 @@ div.all{
 	.hide-nav {display: none;}
 	li {float: none;}
 	.desktop-nav {display: none;}
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .responsive {
+        width: 100%;
+        margin-left: -40px;
+    }
+    
+
 }
 

@@ -7,11 +7,13 @@ p{
 }
 #maincontainer{
 width: 100vw;
-background-color: 
+background-color: ;
 
 }
-#container{
+.header{
+
 }
+
 .desktop-nav{
 	margin-top: -30px;
 }
@@ -37,7 +39,8 @@ a.class2{
 	color: white;
 	font-size: 40pt;
 	position: absolute;
-	bottom: -950px;
+	left: 20px;
+	bottom: 20px;
 	font-family: 'Oxygen', sans-serif;
 	font-weight: 700;
 }
@@ -46,7 +49,8 @@ a.class3{
 	color: white;
 	font-size: 40pt;
 	position: absolute;
-	bottom: -1570px;
+	left: 20px;
+	bottom: 20px;
 	font-family: 'Oxygen', sans-serif;
 	font-weight: 700;
 }
@@ -55,7 +59,8 @@ a.class5{
 	color: white;
 	font-size: 40pt;
 	position: absolute;
-	bottom: -2100px;;
+	left: 20px;
+	bottom: 20px;
 	font-family: 'Oxygen', sans-serif;
 	font-weight: 700;
 }
@@ -93,10 +98,8 @@ ul.a{
 	max-width: 100%;
 	min-width: 90%;
 	height: auto;
-	position: absolute;
 	margin: 0;
-	left: 0px;
-	top: 350px;
+	margin-top: 100px;
 
 }
 .img2 img{
@@ -134,11 +137,11 @@ ul.a{
 .redrectangle{
 	width: 100vw;
 	height: 400px;
-	position: absolute;
-	margin: 0 auto;
-	bottom: -1100px;
-	left: 0px;
-	margin-bottom: 130px;
+	position: relative;
+	/*bottom: -1100px;*/
+	/*left: 0px;*/
+	margin-bottom: 25px;
+	margin-top: 25px;
 	background: url(../imgs/DSC_0681_edit.jpg) no-repeat top center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -146,27 +149,12 @@ ul.a{
 	background-size: cover;
 	background-blend-mode: multiply;
 	background-color: tomato;
-}
-.rectangle{
-	width: 100vw;
-	height: 500px;
-	position: absolute;
-	margin: 0 auto;
-	bottom: -50px;
-	left: 0px;
-	background: url(../imgs/me_competition2.jpg) no-repeat top center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
+}	
 .bluerectangle{
 	width: 100vw;
 	height: 400px;
-	position: absolute;
-	margin: 0 auto;
-	bottom: -1570px;
-	left: 0px;
+	position: relative;
+	margin-bottom: 25px;
 	background: url(../imgs/DSC_0644_edit2.jpg) no-repeat top center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -178,10 +166,8 @@ ul.a{
 .grayrectangle{
 	width: 100vw;
 	height: 400px;
-	position: absolute;
-	margin: 0 auto;
-	bottom: -2100px;
-	left: 0px;
+	position: relative;
+	margin-bottom: 25px;
 	background: url(../imgs/DSC_0695_edit.jpg) no-repeat top center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -190,44 +176,19 @@ ul.a{
 	background-blend-mode: multiply;
 	background-color: rgba(179, 179, 179);
 }
+@media only screen and (max-width: 550px) {
+    .responsive {
+        width: 100%;
+        margin-left: -40px;
+    }
+}
 @media only screen and (max-width: 768px) {
 	.mobile-nav {
 		display: block;
-		margin-left: 100px;
+		margin-left: 10px;
 		line-height: 40px;
 	}
-
-	.redrectangle{
-	margin-bottom: 800px;
-}
-a.class2{
-	margin-bottom: 680px; 
-}
-	.bluerectangle{
-	margin-bottom: 700px;
-}
-a.class3{
-	margin-bottom: 730px; 
-}
-	.grayrectangle{
-	margin-bottom: 660px;
-}
-a.class5{
-	margin-bottom: 700px; 
-}
-.img1 img{
-	position: absolute;
-	top: 500px;
-	width: 100vw;
-	height: auto;
-}
-.img5 img{
-	margin-bottom: 300px;
-
-}
 	.hide-nav {display: none;}
 	li {float: none;}
 	.desktop-nav {display: none;}
-
 }
-

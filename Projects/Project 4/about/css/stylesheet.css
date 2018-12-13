@@ -15,7 +15,7 @@ font-family: 'Oxygen', sans-serif;
 font-size: 40pt;
 color: white;
 position: absolute;
-top: 380px;
+bottom: -150px;
 left: 40px;
 }
 p{
@@ -110,7 +110,7 @@ color: rgba(191, 191, 191);
 	height: 400px;
 	margin-bottom: 40px;
 	margin-top: 100px;
-	position: absolute;
+	position: relative;
 	background: url(../imgs/DSC_0695_edit.jpg) no-repeat top center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -156,21 +156,13 @@ div.gallery2 {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 530px;
-    height: auto;
-    position: absolute;
-    top: 700px;
-    left: 350px;
+    margin-top: -1300px;
+ 
 }
 div.gallery3 {
     margin: 5px;
     border: 1px solid #ccc;
-    float: left;
-    width: 530px;
-    height: auto;
-    position: absolute;
-    top: 1800px;
-    left: 350px;
+    margin-top: -260px;
 }
 div.desc {
     padding: 15px;
@@ -195,64 +187,45 @@ div.all{
     width: 24.99999%;
 }
 
-@media only screen and (max-width: 700px) {
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
+
 
 @media only screen and (max-width: 500px) {
     .responsive {
-        width: 100%;
+        width: 100vw;
     }
     span{
     	text-align: center;
     }
+
+ }
  
-    .redrectangle{
-    	width: 900px;
-    }
-    div.gallery2{
-    	position: absolute;
-    	left: 200px;
-    }
-    	img{
-
-    	}
-    div.gallery3{
-    	position: absolute;
-    	left: 200px;
-    	top: 2200px;
-    }
-    div.desc {
-    padding: 15px;
-    text-align: center;
-    width: 130%;
-    position: absolute;
-    left: -100px;
-    font-size: 18pt;
-    line-height: 40px;
-    text-align: left;
-}
-	div.desc2{
-	width: 130%;
-	position: absolute;
-	left: 10px;
-	 font-size: 18pt;
-	 text-align: left;
-	}
-}
-
 /*mobile menu nav*/
 @media only screen and (max-width: 768px) {
 	.mobile-nav {
 		display: block;
 		margin-left: 10px;
-		
+        line-height: 30px;
 	}
+      .responsive {
+        width: 100vw;
+    }
 	.hide-nav {display: none;}
 	li {float: none;}
 	.desktop-nav {display: none;}
 
 }
+@media only screen and (max-width: 1500px) {
+    .mobile-nav {
+        display: block;
+        margin-left: 10px;
+        line-height: 30px;
+    }
+      .responsive {
+        width: 100vw;
+    }
+    .hide-nav {display: none;}
+    li {float: none;}
+    .desktop-nav {display: none;}
+
+}
+
